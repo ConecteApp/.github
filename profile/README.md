@@ -2,23 +2,26 @@
     
 # DOCUMENTO DA APLICAÇÃO WEB 
 
-## ![Logo LightMode](public/assets/imgs/conecte_logo.svg#gh-light-mode-only)![Logo DarkMode](public/assets/imgs/conecte_logo.svg#gh-dark-mode-only)
+## ![Logo LightMode](../docs/logo.png#gh-light-mode-only)![Logo DarkMode](../docs/logo.png#gh-dark-mode-only)
 
 Plataforma digital que conecta cuidadores de saúde a pacientes que necessitam de acompanhamento e cuidados médicos.
 
-### CENTRO PAULA SOUZA - FACULDADE DE TECNOLOGIA DE JAHU  
-
-### CURSO DE TECNOLOGIA EM DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA  
+### CENTRO PAULA SOUZA - FACULDADE DE TECNOLOGIA DE JAHU
+### TECNOLOGIA EM DESENVOLVIMENTO DE SOFTWARE MULTIPLATAFORMA
 
 **Jahu, SP**  
-
 **Início: 1º semestre/2025**  
+
+[Leia-me](../docs/README.md) | [Instalação](../docs/docs-01-instalacao.md) | [Configuração](../docs/docs-02-configuracao.md) | [Comandos](../docs/docs-03-comandos.md) | [Arquitetura](../docs/docs-04-arquitetura.md)
+
+
 </div>
 
 **Autores:**  
+
 - [Vinicius Leonardo Silveira](https://github.com/vinisilveiraa)
-- [Vinicius Leonardo Silveira](https://github.com/vinisilveiraa)
-- [Vinicius Leonardo Silveira](https://github.com/vinisilveiraa)
+- [Matheus Augusto Paschuinio](https://github.com/matheuspaschuinio)
+- [Pedro Paulo Gonçalves](https://github.com/Pedrinho012-1)
 
 ---
 
@@ -48,14 +51,12 @@ Plataforma digital que conecta cuidadores de saúde a pacientes que necessitam d
 
 ---
 
-
-
-## 1. RESUMO DA APLICAÇÃO WEB 
+## 1. RESUMO DA APLICAÇÃO WEB
 
 Atualmente, muitas famílias enfrentam dificuldades para encontrar cuidadores de confiança e devidamente qualificados. A busca por esses profissionais geralmente é feita de maneira informal, o que pode resultar em contratações inseguras. Ao mesmo tempo, cuidadores experientes enfrentam dificuldades para divulgar seus serviços. O aumento da expectativa de vida e a necessidade de cuidados especializados em casa tornam esse tema cada vez mais relevante. Este sistema surge como uma resposta moderna, segura e eficiente para aproximar quem precisa de cuidados de quem está capacitado para oferecer. Vivemos em um cenário tecnológico no qual muitas áreas já são digitalizadas. No entanto, o setor de cuidados domiciliares ainda carece de soluções organizadas. Assim, a proposta desta aplicação é centralizar informações, filtrar cuidadores, permitir avaliações e facilitar o contato, oferecendo uma plataforma robusta para a gestão de propostas de serviço e perfis de usuários.
+
 <div align= "end"> 
-    
-<sub> [↑ Voltar ao sumário](#0-sumário) </sub>
+   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
 </div>
 
 ---
@@ -68,9 +69,9 @@ Atualmente, muitas famílias enfrentam dificuldades para encontrar cuidadores de
 - Agilizar o processo de contratação com comunicação e agendamento direto com o cuidador, e gestão de propostas (aceite, recusa, cancelamento, conclusão).  
 - Proporcionar segurança e confiabilidade no processo de seleção de cuidadores através de demonstração de seus currículos e sistema de avaliação.  
 - Oferecer um chatbot para suporte e informações básicas aos usuários. 
+
 <div align= "end"> 
-    
-<sub> [↑ Voltar ao sumário](#0-sumário) </sub>
+   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
 </div>
 
 ---
