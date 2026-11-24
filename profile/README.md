@@ -45,9 +45,9 @@ Plataforma digital que conecta cuidadores de saúde a famílias e instituições
 
 7. [MODELO DE DADOS](#7-modelo-de-dados)  
 
-   - [Modelo de Caso de Uso](#71-modelo-de-caso-de-uso)  
+   - [Modelo Lógico](#71-modelo-lógico)  
    - [Modelo Conceitual](#72-modelo-conceitual)  
-   - [Modelo Lógico](#73-modelo-lógico)  
+   - [Modelo de Caso de Uso](#73-modelo-de-caso-de-uso)  
 
 8. [DESIGN](#8-design)  
 9. [PROTÓTIPO](#9-protótipo)  
@@ -63,9 +63,12 @@ Atualmente, muitas famílias e instituições de cuidado (como asilos e casas de
 
 O aumento da expectativa de vida e a necessidade de cuidados especializados em domicílio ou instituições tornam esse tema cada vez mais urgente. O sistema **CONECTE** surge como uma resposta moderna, segura e organizada para aproximar quem precisa de cuidados (famílias e empresas) de profissionais capacitados e verificados. A proposta da aplicação é centralizar informações, validar cadastros, filtrar cuidadores por especialidade e localização, permitir avaliações e oferecer uma plataforma robusta para o cálculo estimado e a gestão de propostas e turnos de serviço.
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+
+</sub>
+
 
 ---
 
@@ -78,9 +81,11 @@ O aumento da expectativa de vida e a necessidade de cuidados especializados em d
 - Proporcionar segurança e confiabilidade no processo de seleção por meio da verificação prévia dos cadastros de cuidadores, exibição de certificações e sistema de avaliação pós-serviço.  
 - Oferecer um chatbot integrado para suporte, esclarecimento de dúvidas frequentes e auxílio aos usuários na plataforma.
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -110,9 +115,11 @@ O aumento da expectativa de vida e a necessidade de cuidados especializados em d
 - Etapa 5: Testes de usabilidade e ajustes.  
 - Etapa 6: Entrega final e documentação.  
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -161,9 +168,11 @@ Este documento especifica as funcionalidades e restrições técnicas esperadas 
 - **RNF08:** Backups automáticos.  
 - **RNF09:** Interface intuitiva e acessível.  
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -179,10 +188,11 @@ Este documento especifica as funcionalidades e restrições técnicas esperadas 
 
 ## ![Modelagem Canvas](../docs/modelo_canvas.png)
 
+<sub align="end"> 
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -204,9 +214,11 @@ Viável – Resolve dores reais de famílias, instituições de cuidado e cuidad
 
 Viável – Nicho em constante expansão impulsionado pelo envelhecimento populacional, com baixa digitalização local e forte demanda por segurança e formalização na contratação de cuidados.
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -216,23 +228,23 @@ A arquitetura de dados da aplicação utiliza um banco de dados relacional **Mar
 
 As principais entidades do modelo relacional incluem: `User`, `Client`, `Company`, `Caregiver`, `Certificates`, `Specialties`, `Caregiver_Specialties` (tabela pivô), `Patients`, `Address`, `Contract`, `contract_turnos` e `Review`.
 
-### 7.1 Modelo de Caso de Uso
-
-> **[IMAGEM PENDENTE / EM ATUALIZAÇÃO: Diagrama de Casos de Uso atualizado contemplando Empresas, Pacientes e Verificação a ser inserido]**  
-<!-- > *(Referência anterior: `Modelagens/documentacao/useCase_conecte.png`)* -->
-
-### 7.2 Modelo Conceitual  
-
-> **[IMAGEM PENDENTE / EM ATUALIZAÇÃO: Modelo Conceitual atualizado a ser inserido]**  
-<!-- > *(Referência anterior: `Modelagens/documentacao/conceitual_conecte.png`)* -->
-
-### 7.3 Modelo Lógico  
+### 7.1 Modelo Lógico  
 
 ## ![Modelagem Banco de Dados](../docs/modelo_bd.png)
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+### 7.2 Modelo Conceitual  
+
+## ![Modelagem Conceitual](../docs/modelo_conceitual.png)
+
+### 7.3 Modelo de Caso de Uso
+
+## ![Modelagem Casos de Uso](../docs/modelo_casos_de_uso.png)
+
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -284,9 +296,11 @@ O protótipo de alta fidelidade contendo os fluxos de Landing Page, Busca de Cui
 
 <!-- > **[IMAGEM PENDENTE: Capturas das telas principais do protótipo no Figma a serem inseridas]** -->
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -305,9 +319,11 @@ As principais funcionalidades implementadas abrangem:
 
 > **[IMAGEM PENDENTE: Capturas de tela finais da aplicação em funcionamento (Dashboard, Busca de Cuidadores e Fluxo de Propostas) a serem inseridas]**
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -324,9 +340,11 @@ Com base na evolução planejada para o sistema, destacam-se as seguintes melhor
 - **Tabela de Preços por Turno:** Evolução do valor único por hora (`per_hour`) para valores personalizados conforme o tipo de turno (diurno, noturno, fim de semana) e complexidade do cuidado.
 - **Diário de Rotina:** Módulo para registro rápido de atividades e medicações durante o plantão, permitindo acompanhamento em tempo real pelos familiares e compartilhamento de histórico entre cuidadores.
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
 
 ---
 
@@ -349,6 +367,8 @@ Com base na evolução planejada para o sistema, destacam-se as seguintes melhor
 - MDN Web Docs. HTML, CSS e JavaScript. Disponível em: <https://developer.mozilla.org/>.  
 - SCRUM GUIDES. The Scrum Guide. Disponível em: <https://scrumguides.org/>.
 
-<div align="end">
-   <sub> [↑ Voltar ao sumário](#0-sumário) </sub>
-</div>
+<sub align="end"> 
+
+  [[↑ voltar ao sumário]](#0-sumário)
+  
+</sub>
